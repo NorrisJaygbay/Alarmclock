@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alarm2</title>
+    <link rel="stylesheet" href="alarm2.css">
+</head>
+<body>
+    <div class="allcontorl">
+        <img src="stopwatch.gif" alt="alarmimage" class="img">
+        <h1 id="timer"></h1>
+        <div class="container"> 
+            <div class="alarmtime">
+                <p>Hou</p>
+                <select name="" id="hours" class="hms">
+                    <!-- <option value="00" selected hidden></option> -->
+                </select>
+            </div>
+            <div class="alarmtime">
+                <p>Min</p>
+                <select name="" id="minutes" class="hms">
+                    <!-- <option value="00" selected hidden></option> -->
+                </select>
+            </div>
+            <div class="alarmtime">
+                <p>Sec</p>
+                <select name="" id="seconds" class="hms">
+                    <!-- <option value="00" selected hidden>00</option> -->
+                </select>
+            </div>
+            <div class="alarmtime">
+                <p>AM/PM</p>
+                <select name="" id="ampm" class="hms">
+                    <!-- <option value="AM/PM" selected hidden>AM/PM</option> -->
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button onclick="startstop()" class="button">Set Alarm</button>
+        </div>
+    </div>
+    <script src="alarm2.js"></script>
+</body>
+</html>
